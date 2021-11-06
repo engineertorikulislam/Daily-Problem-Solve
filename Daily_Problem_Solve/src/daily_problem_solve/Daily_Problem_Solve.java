@@ -27,7 +27,7 @@ public class Daily_Problem_Solve {
 
         // (1+N)/2*N
 
-        // sum = n * (n - 1) / 2;
+        // sum = n * (n - 1) / 2; 1+2+3+....+50 =?
 
         sum = (float) (1 + n) / 2 * n; // Time Complexity o(1)
 
