@@ -9,9 +9,10 @@ public class N_series_Sum_for_loop {
         System.out.println("Enter your last series :");
         Scanner input = new Scanner(System.in);
         n = input.nextInt();
-        for (i = 1; i <= n; ++i) {
+        for (i = 1; i <= n; ++i) { // Time Complexity o(n)
             sum = sum + i;
         }
         System.out.println("1 to " + n + " series sum is :" + sum);
+
     }
 }
